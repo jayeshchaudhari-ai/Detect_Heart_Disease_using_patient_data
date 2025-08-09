@@ -1,105 +1,105 @@
 # Detect_Heart_Disease_using_patient_data
-Detect_Heart_Disease_using_patient_data is a Flask-based ML app that predicts heart disease risk from patient inputs like age, BP, cholesterol, etc. It uses a trained model and scaler to process data, then returns predictions via a simple web form. Designed for demo/learning, not for medical diagnosis.          Ask ChatGPT
-# ​​ Detect Heart Disease — Flask ML App
+Detect_Heart_Disease_using_patient_data is a Flask-based ML app that predicts heart disease risk from patient inputs like age, BP, cholesterol, etc. It uses a trained model and scaler to process data, then returns predictions via a simple web form. Designed for demo/learning, not for medical diagnosis. Ask ChatGPT
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
-![Flask](https://img.shields.io/badge/Flask-2.0+-black?logo=flask)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5+-orange?logo=scikit-learn)
-![License: MIT](https://img.shields.io/badge/License-MIT-green)
+Heart Disease Detect_using_patient_data
+Detect_Heart_Disease_using_patient_data a Flask-based from app ML risk predicts heart disease that like inputs patient age, cholesterol, BP, etc. It uses trained model and scaler to process data, then returns predictions via a simple web form. Designed for demo/learning, not medical diagnosis. Ask ChatGPT.
 
-A **Flask-based machine learning application** that predicts the risk of heart disease from patient parameters. Designed for educational and demonstration purposes—not for medical diagnosis.
+Flask Detect Heart Disease — ML App
+Python scikit-learn Flask | License: MIT
 
----
+Machine learning application Flask-based that predicts heart disease risk from patient parameters. Designed for educational and purposes demonstration — not for diagnosis medical.
 
-##  Table of Contents
-- [Features](#-features)
-- [Dataset & Inputs](#-dataset--inputs)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Setup & Installation](#-setup--installation)
-- [Running the App](#-running-the-app)
-- [Usage](#-usage)
-- [Future Improvements](#-future-improvements)
-- [License](#-license)
+Contents Table of
+Features
 
----
+Inputs & Dataset
 
-##  Features
-- Simple web form accepts patient data like age, blood pressure, cholesterol, etc.
-- Uses a trained ML model and scaler to predict heart disease risk.
-- Flask backend processes inputs and returns real-time outputs.
-- Clear disclaimer: not intended for clinical use.
+Stack Tech
 
----
+Structure Project
 
-##  Dataset & Inputs
-Typical input features include:
-- Age
-- Resting Blood Pressure (BP)
-- Serum Cholesterol
-- Thalach (Max Heart Rate)
-- Others like Fasting BS, ECG results, etc.
+Installation & Setup
 
-(Ensure your training and form inputs match these.)
+App Running
 
----
+Usage
 
-##  Tech Stack
-- **Backend:** Python, Flask  
-- **ML Tools:** scikit-learn  
-- **Frontend:** HTML, CSS (minimal styling)  
-- **Model Persistence:** joblib or pickle
+Improvements Future
 
----
+License
 
-##  Project Structure
-Detect_Heart_Disease_using_patient_data/<br>
-├── app.py # Flask app<br>
-├── model.pkl # Saved trained model & scaler<br>
-├── templates/<br>
-│ └── index.html # Frontend template<br>
-├── README.md # This documentation<br>
-└──Heart_diesaes_ML_Model.ipynb<br>
+Features
+Patient data accepts simple web form like age, cholesterol, blood pressure, etc.
 
----
+ML trained model uses scaler and to predict heart disease risk.
 
-##  Setup & Installation
-git clone https://github.com/Adityawagh786/Detect_Heart_Disease_using_patient_data.git
-cd Detect_Heart_Disease_using_patient_data
-pip install -r requirements.txt  # Flask, scikit-learn, etc.
+Backend Flask processes and returns inputs real-time outputs.
 
----
+Disclaimer clear: clinical use not intended.
 
-Running the App:
+Dataset & Inputs
+Input features typical include:
+
+Age
+
+Blood Pressure Resting (BP)
+
+Serum Cholesterol
+
+Thalach (Max Heart Rate)
+
+Fasting BS, like Others ECG results, etc.
+
+Tech Stack
+Backend: Flask, Python
+
+Tools ML: scikit-learn
+
+Frontend: CSS, HTML (minimal styling)
+
+Persistence Model: pickle or joblib
+
+Project Structure
+Detect_Heart_Disease_using_patient_data/
+├── app.py # Flask app
+├── model.pkl # scaler & trained model saved
+├── templates/
+│ └── index.html # template frontend
+├── README.md # documentation this
+└── Heart_disease_ML_Model.ipynb
+
+Setup & Installation
+bash
+Copy
+Edit
+git clone https://github.com/jayeshchaudhari-ai/Detect_Heart_Disease_using_patient_data  
+cd Detect_Heart_Disease_using_patient_data  
+pip install -r requirements.txt # Flask, scikit-learn, etc.  
+Running the App
+bash
+Copy
+Edit
 python app.py
-Open your browser and go to http://127.0.0.1:5000 to see the form.
+Open your browser http://127.0.0.1:5000 and go to see the form.
 
----
+Usage
+Fill patient's details in the form.
 
-Usage:<br>
-1> Fill in the patient's details in the form.<br>
-2> Submit — the app returns a prediction on heart disease risk.<br>
-3> Use results for learning or model testing only.<br>
+Submit — prediction returns the app on heart disease risk.
 
----
+Use for learning or model testing results only.
 
-Future Improvements:<br>
-*Enhanced UI with styled forms or dropdowns<br>
-*Model upgrades: Tune hyperparameters or try ensemble models<br>
-*Additional features: Add user authentication, logging, demo datasets<br>
-*Validation: Add input checks and error handling<br>
+Future Improvements
+UI enhanced with dropdowns or styled forms
 
----
+Model upgrades: ensemble or tune hyperparameters try
 
-Happy learning and coding!
+Features additional: authentication user, logging, demo datasets add
 
+Validation: handling error and input checks add
 
-Note: This application is for educational/demo purposes only and should not be used for actual medical diagnosis.
+License
+Project licensed under MIT License this is.
 
----
-
-
-🙌 Credits
-
-Developed by Aditya Wagh using Python, Flask, and Scikit-learn.
-
+Credits
+Developed Jayesh Chaudhari using Python, Flask, and scikit-learn.
